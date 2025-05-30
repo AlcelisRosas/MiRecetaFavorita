@@ -3,7 +3,7 @@
 
 **Mi Receta Perfecta** es una aplicación web sencilla creada como parte del proceso de aprendizaje de JavaScript. Permite al usuario agregar, visualizar, filtrar y eliminar recetas culinarias, todo directamente desde el navegador utilizando `localStorage`.
 
-> 🚀Proyecto enfocado en aplicar las reglas básicas de JavaScript, la manipulación del DOM y diseño web responsive moderno.
+> Proyecto enfocado en aplicar las reglas básicas de JavaScript, la manipulación del DOM y diseño web responsive moderno.
 
 ---
 
