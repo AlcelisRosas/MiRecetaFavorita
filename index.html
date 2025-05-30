@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mi Receta Perfecta</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div class="container">
+    <h1>🍽️ Mi Receta Perfecta</h1>
+    
+    <form id="recipeForm">
+      <input type="text" id="recipeName" placeholder="Nombre de la receta" required />
+      <input type="text" id="mainIngredient" placeholder="Ingrediente principal" required />
+      <textarea id="ingredients" placeholder="Ingredientes (separados por coma)" required></textarea>
+      <textarea id="steps" placeholder="Pasos para preparar la receta" required></textarea>
+      <button type="submit">Agregar Receta</button>
+    </form>
+
+    <h2>📖 Recetas Guardadas</h2>
+    <select id="filterIngredient">
+      <option value="">-- Filtrar por ingrediente --</option>
+    </select>
+    <ul id="recipeList"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
